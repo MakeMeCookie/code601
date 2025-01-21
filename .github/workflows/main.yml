@@ -34,4 +34,4 @@ jobs: # 수행할 내용.
         echo "DOCKER_REPOSITORY=mynginx" >> $GITHUB_ENV #본인 ecr레포에 맞게 수정
         echo "IMAGE_TAG=${{ github.run_number }}" >> $GITHUB_ENV
         echo "GIT_EMAIL=wjdtn0508@gmail.com" >> $GITHUB_ENV
-        echo "GIT_NAME=kjs0508" >> $GITHUB_ENV
+        echo "GIT_NAME=MakeMeCookie" >> $GITHUB_ENV
